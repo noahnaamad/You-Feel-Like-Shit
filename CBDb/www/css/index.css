@@ -1,0 +1,79 @@
+* {
+    /*also hides web-focused features*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    /*code to hide the fact that it's a web app pretending to be a mobile app, and improve compatibility*/
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*basic gray color behind everything*/
+    background-color: #32383d;
+    /*commonly-found mobile fonts*/
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    /*'1em' sets the base font size to a 'normal' of 1em, based on literally the letter 'm'*/
+    font-size: 1.25em;
+    font-family: 'caviar_dreamsbold';
+}
+
+/* media query to detect if app is landscape */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    
+}
+
+/* sets image to 100% width of containter, so it doesn't overflow
+    border radius gives it rounded edges
+*/
+.imgComic {
+    width: 100%;
+    border-radius: 25px;
+}
+
+div#showComicsTable table {
+    width: 75%;
+    margin: auto;
+    border: 5px solid black;
+    text-shadow: none;
+}
+
+div#showComicsTable table th {
+    font-weight: bold;
+}
+
+div#showComicsTable table tr:nth-of-type(even) {
+    background-color: rgb(0, 50, 200);
+    color: ghostwhite;
+}
+
+div#showComicsTable table tr:nth-of-type(odd) {
+    background-color: rgba(0, 50, 200, 0.5);
+    color: ghostwhite;
+}
+
+/*style the icon in the details box*/
+div#showComicsTable table td.btnShowComicsInfo {
+    font-size: 2em;
+    text-align: center;
+}
+
+/* there is a content area inside the dialog box */
+.ui-dialog-contain > .ui-content {
+    background-color: gold;
+}
+/*
+p {
+    font-family: 'mountains_of_christmasregular';
+}
+
+h1 {
+    font-family: 'black_jackregular';
+}
+
+h4 {
+    font-family: 'caviar_dreamsbold';
+}
+    */

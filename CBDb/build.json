@@ -1,0 +1,11 @@
+{
+     "android": {
+         "release": {
+             "keystore": "f:\\naamad.keystore",
+             "storePassword": "",
+             "alias": "naamad",
+             "password" : "",
+             "keystoreType": ""
+         }
+     }
+ }

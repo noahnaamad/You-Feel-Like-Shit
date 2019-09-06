@@ -1,0 +1,35 @@
+===MAD 3 January Assessment===
+
+This assessment is worth 10 points. 
+You must complete all items to earn full credit by 9:30pm Thursday, January 10.
+Grading scale:
+9 - 10 	: A
+8	: B
+7	: C
+6	: D
+1 - 5	: F
+You must earn at least 7 points to receive a passing grade. 
+
+This is an individual project; you cannot ask for help from your classmates.
+It is an "open book" project, you may use any text book, website or previous day's work to help you complete the requirements.
+You may ask the *Instructor* for guidance, but not classmates. 
+
+==Requirements==
+Complete your CBDb app with the following:
+	Your information in congig.xml
+	Your app Icon
+	Your app Splashscreen
+	
+Create a free account at http://developer.amazon.com
+Create a new App entry
+All six tabs must show a green checkmark
+	(final app submission NOT required. your app is NOT required to be live to the world)
+	All content in all tabs must be complete (Images & Multimedia for example)
+
+Demonstrate your CBDb project to the Instructor on a real device
+	Either your own device or the class device. 
+
+
+To recap:
+	Your app must be complete
+	Your app must be ready to publish on Amazon
